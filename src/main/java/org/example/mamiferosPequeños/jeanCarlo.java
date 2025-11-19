@@ -10,12 +10,12 @@ public class jeanCarlo {
         ArrayList<HashMap<String, Object>> mamiferosPequeños = new ArrayList<>();
 
         String decision = "entrar";
-        while (!decision.equals("salir")) {
-            System.out.println("Escribe 'salir' si deseas terminar");
+        while (!decision.equals("SALIR")) {
+            System.out.println("Escribe 'SALIR' si deseas terminar");
             decision = pedirDato.nextLine();
             System.out.println("Digitaste: " + decision);
 
-            if (decision.equals("salir")) {
+            if (decision.equals("SALIR")) {
                 break;
             }
 
